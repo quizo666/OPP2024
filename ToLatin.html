@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Изменяем латиницу на Кириллицу</title>
+</head>
+
+<body>
+    <ul>
+        <li> <a href="./ToLatin.html">Изменяем Кириллицу</a> </li>
+        <li> <a href='photo.html'>Скришнот</a> </li>
+    </ul>
+
+    <p align="center">
+        <font color="orange" face="arial" size="5">Российская Федерация</font>
+    </p>
+
+    <p align="right">удостоверение личности</p>
+    <p>
+        Фамилия<br>
+        <span id="SecondName">Александрова</span>
+    </p>
+    <p>
+        <img src="15csv3.jpg" width="1000">
+    </p>
+
+    <script>
+        let SecondNameNode = document.getElementById('SecondName');
+        SecondNameNode.innerText = 'Aleksandrova';
+    </script>
+</body>
+
+</html>
